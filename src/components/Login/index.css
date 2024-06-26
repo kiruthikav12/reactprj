@@ -1,0 +1,56 @@
+.section {
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.section > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ccc;
+  color: black;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5ab6c2;
+}
+
+p {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
